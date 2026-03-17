@@ -5,12 +5,12 @@ import { getAuth } from "firebase/auth";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyA1Ife1eS6VxnyF79ND_5_xjjl9unV-0xY",
-    authDomain: "projectomni-3de5e.firebaseapp.com",
-    projectId: "projectomni-3de5e",
-    storageBucket: "projectomni-3de5e.firebasestorage.app",
-    messagingSenderId: "900473588069",
-    appId: "1:900473588069:web:9065c06dd72e8e1d96b98c"
+    apiKey: import.meta.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: import.meta.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.REACT_APP_FIREBASE_APP_ID
 };
 
 
